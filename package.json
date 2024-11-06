@@ -1,0 +1,16 @@
+{
+  "name": "fondues-express",
+  "version": "1.0.0",
+  "description": "exemple api expressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: COUCOU COUCOU no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "author": "b1dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
