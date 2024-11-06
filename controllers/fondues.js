@@ -1,9 +1,15 @@
-function index(req, res) {
-    res.send('voila les fondues')
+const Fondue = require('../models/Fondue');
+
+
+async function index(req, res) {
+    let fondues = await Fondue.find({})
+    res.send(fondues);
 }
 
-function create(req, res) {
-    res.send('ici pour créer une fondue')
+async function create(req, res) {
+    let {...data} = req.body
+    await Fondue.create({...data})
+    res.send("Apparition nouvelle fondue")
 }
 
 

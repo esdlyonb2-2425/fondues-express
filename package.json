@@ -10,7 +10,10 @@
   "author": "b1dev",
   "license": "ISC",
   "dependencies": {
+    "connect-mongodb-session": "^5.0.0",
     "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.8.0",
     "nodemon": "^3.1.7"
   }
 }

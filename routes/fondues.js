@@ -5,7 +5,7 @@ const {index, create} = require('../controllers/fondues');
 
 router.get('/all', index)
 
-router.get('/new', create)
+router.post('/new', create)
 
 
 

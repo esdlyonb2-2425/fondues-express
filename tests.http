@@ -1,7 +1,13 @@
+GET http://localhost:8090/fondues/all
+Accept: application/json
+
+###
 POST http://localhost:8090/fondues/new
 Content-Type: application/json
 
-{}
+{
+  "name": "la premiere"
+}
 
 ###
 ### GET request to example server
